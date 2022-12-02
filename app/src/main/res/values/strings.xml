@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tarea 2.2</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="regButtonText">Registrarme</string>
+    <string name="welcome_msg">se le ha registrado en la modalidad</string>
+    <string name="online">online</string>
+    <string name="presencial">presencial</string>
+    <string name="askConfirmation">Se va a proceder a reservar su plaza.</string>
+    <string name="continuar">Continuar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="landig_menu_mostrar_en_navegador">Mostrar en navegador</string>
+    <string name="landing_menu_mostrar_localizacion">Mostrar localización</string>
+    <string name="miterisUrl" translatable="false">https://www.miteris.com/</string>
+    <string name="errorNoWebBrowser">No se ha encontrado un navegador web</string>
+    <string name="schoolCoords" translatable="false">geo:41.6269323,-4.717817</string>
+    <string name="googleMapsPackageName" translatable="false">com.google.android.apps.maps</string>
+    <string name="errorNoGoogleMaps">No se ha encontrado Google Maps</string>
+    <string-array name="modes_array">
+        <item>presencial</item>
+        <item>online</item>
+    </string-array>
+</resources>

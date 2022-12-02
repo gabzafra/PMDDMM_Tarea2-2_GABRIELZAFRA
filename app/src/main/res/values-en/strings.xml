@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarea 2.2</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Surnames</string>
+    <string name="telefono">Phone number</string>
+    <string name="email">Email</string>
+    <string name="regButtonText">Register</string>
+    <string name="welcome_msg">has been registered, will attend</string>
+    <string name="online">online</string>
+    <string name="presencial">presential</string>
+    <string-array name="modes_array">
+        <item>presential</item>
+        <item>online</item>
+    </string-array>
+    <string name="continuar">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="askConfirmation">We will proceed to reserve your place.</string>
+    <string name="landig_menu_mostrar_en_navegador">Show on browser</string>
+    <string name="landing_menu_mostrar_localizacion">Show location</string>
+    <string name="errorNoWebBrowser">No web browser was found</string>
+    <string name="errorNoGoogleMaps">No Google Maps found</string>
+</resources>
