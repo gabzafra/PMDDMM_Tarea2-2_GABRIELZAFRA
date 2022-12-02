@@ -20,4 +20,7 @@
     <string name="landing_menu_mostrar_localizacion">Show location</string>
     <string name="errorNoWebBrowser">No web browser was found</string>
     <string name="errorNoGoogleMaps">No Google Maps found</string>
+    <string name="errorMin2Chars">Must be at least 2 characters long</string>
+    <string name="errorNo9Digits">Must have 9 digits</string>
+    <string name="errorIvalidMail">Must be a valid email address</string>
 </resources>

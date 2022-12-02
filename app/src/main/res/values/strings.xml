@@ -18,6 +18,10 @@
     <string name="schoolCoords" translatable="false">geo:41.6269323,-4.717817</string>
     <string name="googleMapsPackageName" translatable="false">com.google.android.apps.maps</string>
     <string name="errorNoGoogleMaps">No se ha encontrado Google Maps</string>
+    <string name="errorMin2Chars">Debe contener más de 2 caracteres</string>
+    <string name="errorNo9Digits">Debe tener 9 cifras</string>
+    <string name="errorIvalidMail">Debe escribir un correo válido</string>
+    <string name="mailValidationPattern" translatable="false">^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$</string>
     <string-array name="modes_array">
         <item>presencial</item>
         <item>online</item>
