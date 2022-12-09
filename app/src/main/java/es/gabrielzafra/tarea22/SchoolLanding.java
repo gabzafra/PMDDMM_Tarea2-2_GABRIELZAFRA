@@ -22,17 +22,6 @@ public class SchoolLanding extends AppCompatActivity {
         //Configuramos la toolbar
         Toolbar toolbar = findViewById(R.id.landingToolbar);
         setSupportActionBar(toolbar);
-        //Crear un Intent para volver al menu de registro con en Back button
-        Intent goRegisterView = new Intent(this, RegisterView.class);
-        //Alteramos el comportamiento del Back button
-        OnBackPressedCallback backCallback = new OnBackPressedCallback(true) {
-            @Override
-            public void handleOnBackPressed() {
-                startActivity(goRegisterView);
-            }
-        };
-        //Añadimos el callback al Dispatcher que controla los eventos del Back button
-        getOnBackPressedDispatcher().addCallback(this, backCallback);
 
         //Configuramos el WebView
 

@@ -111,6 +111,13 @@ public class RegisterView extends AppCompatActivity {
         phoneInput.addTextChangedListener(validador);
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        //Vaciamos el formulario
+        resetNewUserForm();
+    }
+
     /**
      * Recoge los datos de los campos EditText y el Spinner y los usa para crear un objeto
      * Usuario con ese estado.
@@ -131,5 +138,16 @@ public class RegisterView extends AppCompatActivity {
         String regex =
                 getString(R.string.mailValidationPattern);
         return Pattern.compile(regex).matcher(mail).matches();
+    }
+
+    private void resetNewUserForm(){
+        EditText nameInput = findViewById(R.id.inputName);
+        EditText surnamesInput = findViewById(R.id.inputSurnames);
+        EditText mailInput = findViewById(R.id.inputEmail);
+        EditText phoneInput = findViewById(R.id.inputPhone);
+        nameInput.setText(null);
+        surnamesInput.setText(null);
+        mailInput.setText(null);
+        phoneInput.setText(null);
     }
 }
