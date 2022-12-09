@@ -80,16 +80,16 @@ public class RegisterView extends AppCompatActivity {
                 boolean phoneHasNineDigits = phoneInput.getText().toString().length() == 9;
                 boolean emailIsValid = validateEmail(mailInput.getText().toString());
                 //Añadimos errores a los campos que fallen la validación
-                if(!nameHasText){
+                if(!nameHasText && nameInput.hasFocus()){
                     nameInput.setError(getString(R.string.errorMin2Chars));
                 }
-                if(!surnamesHasText){
+                if(!surnamesHasText && surnamesInput.hasFocus()){
                     surnamesInput.setError(getString(R.string.errorMin2Chars));
                 }
-                if(!phoneHasNineDigits){
+                if(!phoneHasNineDigits && phoneInput.hasFocus()){
                     phoneInput.setError(getString(R.string.errorNo9Digits));
                 }
-                if(!emailIsValid){
+                if(!emailIsValid && mailInput.hasFocus()){
                     mailInput.setError(getString(R.string.errorIvalidMail));
                 }
                 //Si todos son válidos activamos el boton de registro
